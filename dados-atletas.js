@@ -21,7 +21,7 @@ class Atleta {
   };
   calculaIMC() {
     let imc = this.peso / Math.pow(this.altura, 2);
-    return `IMC: ${imc}`;
+    return imc;
   };
   calculaMediaValida() {
     //Ordenando as notas do atleta
@@ -57,7 +57,7 @@ class Atleta {
   }
 
   obtemNotasAtleta() {
-    return this.notas;
+    return this.notas.join(", ");
   };
   obtemCategoria() {
     return this.calculaCategoria()
