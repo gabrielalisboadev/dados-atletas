@@ -55,7 +55,13 @@ class Atleta {
   obtemNotasAtleta() {
     return this.notas
   }
-  obtemCategoria() {}
-  obtemIMC() {}
-  obtemMediaValida() {}
+  obtemCategoria() {
+    return this.calculaCategoria()
+  }
+  obtemIMC() {
+    return this.calculaIMC()
+  }
+  obtemMediaValida() {
+    return this.calculaMediaValida()
+  }
 }
