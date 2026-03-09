@@ -73,10 +73,7 @@ class Atleta {
 // Declara o atleta
 const atleta = new Atleta("Cesar Abascal",
     30, 80, 1.70,
-    [10, 9.34, 8.42, 10, 7.88]);
-
-    console.log(atleta);
-    
+    [10, 9.34, 8.42, 10, 7.88]);    
 
 // Exibe os resultados
 console.log(`Nome: ${atleta.obtemNomeAtleta()}`);
