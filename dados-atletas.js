@@ -42,26 +42,32 @@ class Atleta {
     return media;
   };
   obtemNomeAtleta() {
-    return this.nome
-  }
+    return this.nome;
+  };
   obtemIdadeAtleta() {
-    return this.idade
-  }
+    return this.idade;
+  };
   
   obtemPesoAtleta() {
-    return this.peso
-  }
+    return this.peso;
+  };
 
   obtemNotasAtleta() {
-    return this.notas
-  }
+    return this.notas;
+  };
   obtemCategoria() {
     return this.calculaCategoria()
-  }
+  };
   obtemIMC() {
     return this.calculaIMC()
-  }
+  };
   obtemMediaValida() {
     return this.calculaMediaValida()
-  }
-}
+  };
+};
+
+// Declara o atleta
+const atleta = new Atleta("Cesar Abascal",
+    30, 80, 1.70,
+    [10, 9.34, 8.42, 10, 7.88]);
+
