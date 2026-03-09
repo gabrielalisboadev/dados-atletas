@@ -20,10 +20,11 @@ class Atleta {
     };
   };
   calculaIMC() {
-
-  }
+    let imc = this.peso / Math.pow(this.altura, 2);
+    return `IMC: ${imc}`;
+  };
   calculaMediaValida() {
-
+    
   }
   obtemNomeAtleta() {
 
